@@ -27,7 +27,6 @@ public:
             : capacity_(capacity)
             , size_(0)
             , buffer(new T[capacity])
-//            , buffer(static_cast<T*>(::operator new(sizeof(T) * capacity)))
     {
 //        cout << "You've created empty vector with capacity: " << capacity_ << endl;
     }

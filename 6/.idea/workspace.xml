@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated>
-      <config projectName="source" targetName="6" />
-    </generated>
+    <generated />
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -11,7 +9,23 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c72e2fdf-b919-437b-bb2a-538e7aa3ec28" name="Default Changelist" comment="" />
+    <list default="true" id="c72e2fdf-b919-437b-bb2a-538e7aa3ec28" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../4/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../10/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2/src/source/myVector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../2/src/source/myVector.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/src/source/tasks.h" beforeDir="false" afterPath="$PROJECT_DIR$/../4/src/source/tasks.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/src/test/testing.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../4/src/test/testing.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/src/source/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../5/src/source/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/source/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/source/main.cpp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,11 +35,14 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1XYEvsHwcoYPjpeU1Jmyc1Ouoqj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../10" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunDashboard">
@@ -40,13 +57,6 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="6" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="source" TARGET_NAME="6" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="source" RUN_TARGET_NAME="6">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -58,10 +68,22 @@
       <option name="presentableId" value="Default" />
       <updated>1581214861459</updated>
       <workItem from="1581214862593" duration="13826000" />
+      <workItem from="1581291569929" duration="88000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

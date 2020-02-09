@@ -40,35 +40,35 @@ INSTANTIATE_TEST_CASE_P(
 
 
 
-//struct is_symmetric_param{
-//    Matrix<int, 3, 3> m;
-//    bool ans;
-//};
-//
-//class is_symmetric_test: public ::testing::TestWithParam<is_symmetric_param> {};
-//
-//TEST_P(is_symmetric_test, _){
-//    const is_symmetric_param& param = GetParam();
-//    auto res = param.m.is_symmetric();
-//    EXPECT_EQ(param.ans, res);
-//}
-//
-//INSTANTIATE_TEST_CASE_P(
-//        _,
-//        is_symmetric_test,
-//        ::testing::Values(
-//                is_symmetric_param{
-//                        {1, 0, 0, 0, 1, 0, 0, 0, 1},
-//                        1
-//                },
-//                is_symmetric_param{
-//                        {1, 2, 3, 4, 5, 6, 7, 8, 9},
-//                        0
-//                },
-//                is_symmetric_param{
-//                        {1, 2, 3, 2, 4, 5, 3, 5, 0},
-//                        1
-//                },
-//        )
-//);
+struct is_symmetric_param{
+    Matrix<int, 3, 3> m;
+    bool ans;
+};
+
+class is_symmetric_test: public ::testing::TestWithParam<is_symmetric_param> {};
+
+TEST_P(is_symmetric_test, _){
+    const is_symmetric_param& param = GetParam();
+    auto res = param.m.is_symmetric();
+    EXPECT_EQ(param.ans, res);
+}
+
+INSTANTIATE_TEST_CASE_P(
+        _,
+        is_symmetric_test,
+        ::testing::Values(
+                is_symmetric_param{
+                        {1, 0, 0, 0, 1, 0, 0, 0, 1},
+                        1
+                },
+                is_symmetric_param{
+                        {1, 2, 3, 4, 5, 6, 7, 8, 9},
+                        0
+                },
+                is_symmetric_param{
+                        {1, 2, 3, 2, 4, 5, 3, 5, 0},
+                        1
+                },
+        )
+);
 

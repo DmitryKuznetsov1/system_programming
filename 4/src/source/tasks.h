@@ -157,7 +157,3 @@ bool all(Matrix<T, N, M> boolMat) {
     }
     return true;
 }
-
-//template <typename T, size_t N, size_t M> bool Matrix<T, N, M>::is_symmetric(double eps) {
-//    return all(absMat(*this - this->transposed()) < eps);
-//}
