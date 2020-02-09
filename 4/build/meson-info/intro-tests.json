@@ -1,0 +1,1 @@
+[{"cmd": ["/home/dmitry/CLionProjects/system_programming/4/build/src/test/testing"], "env": {}, "name": "myTest", "workdir": null, "timeout": 30, "suite": ["myproject"], "is_parallel": true, "priority": 0, "protocol": "exitcode"}]
