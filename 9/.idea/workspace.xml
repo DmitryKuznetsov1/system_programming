@@ -9,9 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ddb02ff-6c27-47ea-8ac5-ba71aca8d13e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="313fe90c-dd60-4040-aa8a-f8b0ee515e91" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,14 +19,10 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="ProjectId" id="1XaDcWXlTAse4Nl3cjJOqSKDZnY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1XcpgbiDuL5e9W9GbCZ7PrgYT2M" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../system_programming_cpp/2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunDashboard">
@@ -48,30 +42,16 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3ddb02ff-6c27-47ea-8ac5-ba71aca8d13e" name="Default Changelist" comment="" />
-      <created>1581275391279</created>
+      <changelist id="313fe90c-dd60-4040-aa8a-f8b0ee515e91" name="Default Changelist" comment="" />
+      <created>1581355348608</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1581275391279</updated>
-      <workItem from="1581275392389" duration="5139000" />
-      <workItem from="1581291659150" duration="1348000" />
+      <updated>1581355348608</updated>
+      <workItem from="1581355349720" duration="3328000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
