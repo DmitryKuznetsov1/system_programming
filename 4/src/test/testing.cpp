@@ -68,7 +68,7 @@ INSTANTIATE_TEST_CASE_P(
                 is_symmetric_param{
                         {1, 2, 3, 2, 4, 5, 3, 5, 0},
                         1
-                },
+                }
         )
 );
 
