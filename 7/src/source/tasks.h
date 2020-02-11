@@ -24,9 +24,9 @@ protected:
     // overflow override
     int_type overflow(int_type c = EOF) override {
         if (newString) {
-            std::string str = std::to_string(++N);
+            std::string str = std::to_string(N++);
             if(str.length() < 8)
-                str = std::string(8 - str.length(), ' ') + str;
+                str += std::string(8 - str.length(), ' ');
             buffer->sputn(str.c_str(), 8);
 
             newString = false;

@@ -1,1 +1,0 @@
-[{"cmd": ["/home/dmitry/CLionProjects/system_programming_cpp/7/biuld/src/test/testing"], "env": {}, "name": "Test", "workdir": null, "timeout": 30, "suite": ["myproject"], "is_parallel": true, "priority": 0, "protocol": "exitcode"}]
