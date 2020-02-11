@@ -1,0 +1,7 @@
+[
+  {
+    "directory": "/home/dmitry/CLionProjects/system_programming_cpp/7/biuld",
+    "command": "c++ -Isrc/test/c644cb3@@testing@exe -Isrc/test -I../src/test -Isrc -I../src -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -g -pthread -MD -MQ 'src/test/c644cb3@@testing@exe/testing.cpp.o' -MF 'src/test/c644cb3@@testing@exe/testing.cpp.o.d' -o 'src/test/c644cb3@@testing@exe/testing.cpp.o' -c ../src/test/testing.cpp",
+    "file": "../src/test/testing.cpp"
+  }
+]
