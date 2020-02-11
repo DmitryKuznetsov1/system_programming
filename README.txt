@@ -4,7 +4,7 @@ task 3 - done
 task 4 - done
 task 5 - done
 task 6 - done
-task 7 - 
+task 7 - done
 task 8 - 
 task 9 - done // documentation for message function in c_m_t.h
 task 10 - done
