@@ -1,0 +1,4 @@
+PROJECT_NAME = "System Programming"
+OUTPUT_DIRECTORY = /home/dmitry/CLionProjects/system_programming/9/build
+INPUT = /home/dmitry/CLionProjects/system_programming/9/src/source/3
+EXTRACT_ALL = YES

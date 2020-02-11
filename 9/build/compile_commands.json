@@ -1,0 +1,32 @@
+[
+  {
+    "directory": "/home/dmitry/CLionProjects/system_programming/9/build",
+    "command": "c++ -Isrc/source/2/21d62e7@@myproject@exe -Isrc/source/2 -I../src/source/2 -Isrc/source -I../src/source -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -g -MD -MQ 'src/source/2/21d62e7@@myproject@exe/main.cpp.o' -MF 'src/source/2/21d62e7@@myproject@exe/main.cpp.o.d' -o 'src/source/2/21d62e7@@myproject@exe/main.cpp.o' -c ../src/source/2/main.cpp",
+    "file": "../src/source/2/main.cpp"
+  },
+  {
+    "directory": "/home/dmitry/CLionProjects/system_programming/9/build",
+    "command": "c++ -Isrc/source/2/21d62e7@@myproject@exe -Isrc/source/2 -I../src/source/2 -Isrc/source -I../src/source -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -g -MD -MQ 'src/source/2/21d62e7@@myproject@exe/myVector.cpp.o' -MF 'src/source/2/21d62e7@@myproject@exe/myVector.cpp.o.d' -o 'src/source/2/21d62e7@@myproject@exe/myVector.cpp.o' -c ../src/source/2/myVector.cpp",
+    "file": "../src/source/2/myVector.cpp"
+  },
+  {
+    "directory": "/home/dmitry/CLionProjects/system_programming/9/build",
+    "command": "c++ -Isrc/test/3/7c8b79d@@testing@exe -Isrc/test/3 -I../src/test/3 -Isrc/test -I../src/test -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -g -pthread -MD -MQ 'src/test/3/7c8b79d@@testing@exe/testing.cpp.o' -MF 'src/test/3/7c8b79d@@testing@exe/testing.cpp.o.d' -o 'src/test/3/7c8b79d@@testing@exe/testing.cpp.o' -c ../src/test/3/testing.cpp",
+    "file": "../src/test/3/testing.cpp"
+  },
+  {
+    "directory": "/home/dmitry/CLionProjects/system_programming/9/build",
+    "command": "c++ -Isrc/test/4/affccd8@@testing@exe -Isrc/test/4 -I../src/test/4 -Isrc/test -I../src/test -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -g -pthread -MD -MQ 'src/test/4/affccd8@@testing@exe/testing.cpp.o' -MF 'src/test/4/affccd8@@testing@exe/testing.cpp.o.d' -o 'src/test/4/affccd8@@testing@exe/testing.cpp.o' -c ../src/test/4/testing.cpp",
+    "file": "../src/test/4/testing.cpp"
+  },
+  {
+    "directory": "/home/dmitry/CLionProjects/system_programming/9/build",
+    "command": "c++ -Isrc/test/5/c9193ee@@testing@exe -Isrc/test/5 -I../src/test/5 -Isrc/test -I../src/test -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -g -pthread -MD -MQ 'src/test/5/c9193ee@@testing@exe/testing.cpp.o' -MF 'src/test/5/c9193ee@@testing@exe/testing.cpp.o.d' -o 'src/test/5/c9193ee@@testing@exe/testing.cpp.o' -c ../src/test/5/testing.cpp",
+    "file": "../src/test/5/testing.cpp"
+  },
+  {
+    "directory": "/home/dmitry/CLionProjects/system_programming/9/build",
+    "command": "c++ -Isrc/test/6/f2a0fb1@@testing@exe -Isrc/test/6 -I../src/test/6 -Isrc/test -I../src/test -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -g -pthread -MD -MQ 'src/test/6/f2a0fb1@@testing@exe/testing.cpp.o' -MF 'src/test/6/f2a0fb1@@testing@exe/testing.cpp.o.d' -o 'src/test/6/f2a0fb1@@testing@exe/testing.cpp.o' -c ../src/test/6/testing.cpp",
+    "file": "../src/test/6/testing.cpp"
+  }
+]

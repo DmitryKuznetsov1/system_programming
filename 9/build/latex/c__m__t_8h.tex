@@ -1,0 +1,78 @@
+\hypertarget{c__m__t_8h}{}\section{src/source/3/c\+\_\+m\+\_\+t.h File Reference}
+\label{c__m__t_8h}\index{src/source/3/c\+\_\+m\+\_\+t.\+h@{src/source/3/c\+\_\+m\+\_\+t.\+h}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$cstdarg$>$}\newline
+{\ttfamily \#include $<$array$>$}\newline
+{\ttfamily \#include $<$gtest/gtest.\+h$>$}\newline
+Include dependency graph for c\+\_\+m\+\_\+t.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=348pt]{c__m__t_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=193pt]{c__m__t_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structTie}{Tie$<$ T, N, M $>$}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{c__m__t_8h_a7bd33569b68d258859e22c0e7a34e460}{message} (std\+::ostream \&\&stream, const char $\ast$format)
+\item 
+{\footnotesize template$<$typename First , typename ... Other$>$ }\\void \hyperlink{c__m__t_8h_a7aaded27693dc98450b62ac7c7f47031}{message} (std\+::ostream \&stream, const char $\ast$format, First \&\&first, Other \&\&... other)
+\item 
+{\footnotesize template$<$class T , size\+\_\+t N, class ... Arrs$>$ }\\auto \hyperlink{c__m__t_8h_aff1b674702aedf8ece022138b53b847a}{cat} (std\+::array$<$ T, N $>$ \&first, Arrs \&\&... other) -\/$>$ std\+::array$<$ T,(sizeof...(other)+1) $\ast$N $>$
+\item 
+{\footnotesize template$<$class T , size\+\_\+t N, class... Arrs$>$ }\\auto \hyperlink{c__m__t_8h_a1ed867e6abeb36225ea74d522bc8de21}{tie} (std\+::array$<$ T, N $>$ \&first, Arrs \&\&... other) -\/$>$ \hyperlink{structTie}{Tie}$<$ T, N, sizeof ...(other)+1 $>$
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{c__m__t_8h_aff1b674702aedf8ece022138b53b847a}\label{c__m__t_8h_aff1b674702aedf8ece022138b53b847a}} 
+\index{c\+\_\+m\+\_\+t.\+h@{c\+\_\+m\+\_\+t.\+h}!cat@{cat}}
+\index{cat@{cat}!c\+\_\+m\+\_\+t.\+h@{c\+\_\+m\+\_\+t.\+h}}
+\subsubsection{\texorpdfstring{cat()}{cat()}}
+{\footnotesize\ttfamily template$<$class T , size\+\_\+t N, class ... Arrs$>$ \\
+auto cat (\begin{DoxyParamCaption}\item[{std\+::array$<$ T, N $>$ \&}]{first,  }\item[{Arrs \&\&...}]{other }\end{DoxyParamCaption}) -\/$>$ std\+::array$<$T, (sizeof...(other) + 1) $\ast$ N$>$
+}
+
+\mbox{\Hypertarget{c__m__t_8h_a7bd33569b68d258859e22c0e7a34e460}\label{c__m__t_8h_a7bd33569b68d258859e22c0e7a34e460}} 
+\index{c\+\_\+m\+\_\+t.\+h@{c\+\_\+m\+\_\+t.\+h}!message@{message}}
+\index{message@{message}!c\+\_\+m\+\_\+t.\+h@{c\+\_\+m\+\_\+t.\+h}}
+\subsubsection{\texorpdfstring{message()}{message()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void message (\begin{DoxyParamCaption}\item[{std\+::ostream \&\&}]{stream,  }\item[{const char $\ast$}]{format }\end{DoxyParamCaption})}
+
+\textbackslash{}Выводит на заданный поток строку, получаемой из шаблона со вставкой заданных элементов вместо \% 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em stream} & Заданный поток \\
+\hline
+\mbox{\tt in}  & {\em format} & Заданный шаблон \\
+\hline
+\mbox{\tt in}  & {\em Other} & Элементы, которые нужно вставить на место \% \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{c__m__t_8h_a7aaded27693dc98450b62ac7c7f47031}\label{c__m__t_8h_a7aaded27693dc98450b62ac7c7f47031}} 
+\index{c\+\_\+m\+\_\+t.\+h@{c\+\_\+m\+\_\+t.\+h}!message@{message}}
+\index{message@{message}!c\+\_\+m\+\_\+t.\+h@{c\+\_\+m\+\_\+t.\+h}}
+\subsubsection{\texorpdfstring{message()}{message()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename First , typename ... Other$>$ \\
+void message (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{stream,  }\item[{const char $\ast$}]{format,  }\item[{First \&\&}]{first,  }\item[{Other \&\&...}]{other }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{c__m__t_8h_a1ed867e6abeb36225ea74d522bc8de21}\label{c__m__t_8h_a1ed867e6abeb36225ea74d522bc8de21}} 
+\index{c\+\_\+m\+\_\+t.\+h@{c\+\_\+m\+\_\+t.\+h}!tie@{tie}}
+\index{tie@{tie}!c\+\_\+m\+\_\+t.\+h@{c\+\_\+m\+\_\+t.\+h}}
+\subsubsection{\texorpdfstring{tie()}{tie()}}
+{\footnotesize\ttfamily template$<$class T , size\+\_\+t N, class... Arrs$>$ \\
+auto tie (\begin{DoxyParamCaption}\item[{std\+::array$<$ T, N $>$ \&}]{first,  }\item[{Arrs \&\&...}]{other }\end{DoxyParamCaption}) -\/$>$ \hyperlink{structTie}{Tie}$<$T, N, sizeof ... (other) + 1$>$ }
+
